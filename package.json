@@ -30,8 +30,9 @@
 	"dependencies": {
 		"dotenv": "^16.0.3"
 	},
-    "scripts": {
-        "goerli-deploy": "hardhat run scripts/deploy.js --network goerli",
-        "def-deploy": "hardhat run scripts/deploy.js"
-    }
+	"scripts": {
+		"goerli-deploy": "hardhat run scripts/deploy.js --network goerli",
+		"def-deploy": "hardhat run scripts/deploy.js",
+		"localhost-deploy": "hardhat run scripts/deploy.js --network localhost"
+	}
 }
